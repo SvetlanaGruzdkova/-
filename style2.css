@@ -45,8 +45,7 @@ element.style {
     border-bottom-width: 50px;
     border-top-width: 50px;
 } 
-/*экспериментировала границы в DevTools и прописались они и в html и css. Почему,если их прописывать только в css изменения не происходят?
-*/
+
 button:hover {
 	color: blue;
 	background-color: red;
