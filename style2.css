@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size:20px;
+	font-family: Roboto, Arial, sans-serif;
+	line-height: 2;
+	color: blue;
+}
+h1{
+	color: #00f8ffed;
+	font-size: 2rem;
+	font-weight: 800;
+	font-family: 'Times new roman', serif;
+	border: 5px solid #00f8ffed;
+	padding: 1px 15px 15px 100px;
+}
+h2{
+	color: #e91e63;
+	font-size: 1,5rem;
+	font-weight: 600;
+	font-style: oblique;
+}
+.name{
+	background-color: #e91e63;
+}
+.text{
+	background-color: #ff00f16e;
+}
+.order{
+	background-color: #ff00f16e;
+	border: 5px solid #00f8ffed;
+	padding: 1px 15px 15px 100px;
+	margin: 1px 15px 15px 100px;
+}
+element.style {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    border-top-width: 50px;
+} 
+/*экспериментировала границы в DevTools и прописались они и в html и css. Почему,если их прописывать только в css изменения не происходят?
+*/
+button:hover {
+	color: blue;
+	background-color: red;
+	font-weight: 700;
+}
